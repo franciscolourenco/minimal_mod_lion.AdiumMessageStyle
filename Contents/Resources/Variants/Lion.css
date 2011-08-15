@@ -42,10 +42,25 @@
 	border-top: 1px solid hsla(0, 0%, 88%, 1);
 }
 
-.focus
-{
+.focus {
 	background-image: none;
-	background-repeat: none;
+	background-repeat: no-repeat;
+	background-color: hsla(220, 20%, 97%, 1);
+}
+
+.mention {
+	background-image: url(/Users/user/Desktop/bluedot.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+	background-size: 9px 9px;
+
+}
+
+.focus.mention {
+	background-image: url(/Users/user/Desktop/bluedot.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+	background-size: 9px 9px;
 	background-color: hsla(220, 20%, 97%, 1);
 }
 
@@ -61,4 +76,8 @@ img.x-buddyicon {
 
 .message:not([src*="buddy_icon.png"]) .x-message {
 	margin-left: 3.3em;
+}
+
+.x-container {
+	padding-left: 20px;
 }
