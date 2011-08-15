@@ -64,6 +64,13 @@
 	background-color: hsla(220, 20%, 97%, 1);
 }
 
+.history.mention {
+	background-image: url(/Users/user/Desktop/bluedot.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+	background-size: 9px 9px;
+}
+
 img.x-buddyicon, .history:hover img.x-buddyicon {
 	border-radius: 3px;
 	padding-bottom: 0;
