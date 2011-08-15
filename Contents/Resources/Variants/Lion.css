@@ -53,3 +53,12 @@ img.x-buddyicon {
 	border-radius: 3px;
 	padding-bottom: 0;
 }
+
+.message:not([src*="buddy_icon.png"]) .x-sender
+{
+	margin-left: 3em;
+}
+
+.message:not([src*="buddy_icon.png"]) .x-message {
+	margin-left: 3.3em;
+}

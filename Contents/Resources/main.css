@@ -101,7 +101,7 @@ a:hover
 }
 
 .x-container.message.showIcons:not([src*="buddy_icon.png"]):not(.consecutive),
-.message.action + .x-container.message.consecutive.showIcons:not([src*="buddy_icon.png"]),
+.message.action + .x-container.message.consecutive.showps:not([src*="buddy_icon.png"]),
 .message.action.showIcons:not([src*="buddy_icon.png"])
 {
 	min-height: 29px;
@@ -169,8 +169,8 @@ img.x-buddyicon
 	margin-top: 2px;
 	margin-right: 6px;
 	padding-bottom: 8px;
-	width: 24px;
-	height: 24px;
+	width: 2.7em;
+	height: 2.7em;
 }
 
 .hideIcons img.x-buddyicon
