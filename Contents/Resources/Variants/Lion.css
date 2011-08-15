@@ -29,3 +29,8 @@
 {
 	color: hsla(0, 0%, 50%, 1) !important;
 }
+
+#Chat
+{
+	background: white;
+}
