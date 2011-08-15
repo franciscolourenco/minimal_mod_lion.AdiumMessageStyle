@@ -81,3 +81,24 @@ img.x-buddyicon {
 .x-container {
 	padding-left: 20px;
 }
+
+a
+{
+	border-bottom: none;
+	text-decoration: none;
+}
+
+a:hover
+{
+	border-bottom: none;
+}
+
+.outgoing:not(.history) a
+{
+	color: #576EFF !important;
+}
+
+.outgoing:not(.history) a:hover
+{
+	color: #374EE5 !important;
+}
