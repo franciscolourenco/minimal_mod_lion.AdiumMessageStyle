@@ -14,22 +14,6 @@
 	color: hsla(0, 0%, 0%, 1) !important;
 }
 
-.history.incoming .x-sender,
-.history.incoming a,
-#Chat:not(.groupchat) .history.status .x-message,
-#Chat:not(.groupchat) .history.status a,
-#Chat:not(.groupchat) .history.event .x-message,
-#Chat:not(.groupchat) .history.event a
-{
-	color: hsla(0, 0%, 75%, 1) !important;
-}
-
-.history.outgoing .x-sender,
-.history.outgoing a
-{
-	color: hsla(0, 0%, 50%, 1) !important;
-}
-
 #Chat
 {
 	background: white;
@@ -64,12 +48,6 @@
 	background-color: hsla(220, 20%, 97%, 1);
 }
 
-.history.mention {
-	background-image: url(/Users/user/Desktop/bluedot.png);
-	background-repeat: no-repeat;
-	background-position: 6px center;
-	background-size: 9px 9px;
-}
 
 img.x-buddyicon, .history:hover img.x-buddyicon {
 	border-radius: 3px;
@@ -111,10 +89,21 @@ a:hover
 	color: #374EE5 !important;
 }
 
-.history img.x-buddyicon {
-	opacity: 0.4;
+.history .x-sender, .history .x-message {
+	color:black !important;
 }
 
-.history:hover .x-sender, .history:hover .x-message {
-	color:black !important;
+.history.mention {
+	background-image: url(/Users/user/Desktop/bluedot.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+	background-size: 9px 9px;
+}
+
+.history {
+	opacity:0.5;
+}
+
+.history:hover {
+	opacity:1;
 }
