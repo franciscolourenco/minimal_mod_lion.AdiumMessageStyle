@@ -27,13 +27,13 @@ changes
 - message separators: solid line
 - focus indicator: gray background (like Finder/iTunes list)
 - username: Black vs Black
-- background:white
-- rounded user icons *
-- user icon size of single line *
+- background: white
+- rounded user icons * (arguable)
+- user icon: make it the size of a single line message*
 - change necessary px to em in order to scale everything properly *
 - mention indicators: blue dot
 - links: light blue
 - context: user icons gray *
 - context:hover: bring message color *
 
-\* should probably be aplied the whole message style
+\* should probably be applied the whole message style
