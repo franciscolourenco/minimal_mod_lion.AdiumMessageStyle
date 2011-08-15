@@ -13,11 +13,11 @@
 	<key>OriginalAuthor</key>
 	<string>polymnemonic</string>
 	<key>CFBundleIdentifier</key>
-	<string>im.adium.minimal_mod.style</string>
+	<string>im.adium.minimal_mod_lion.style</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>CFBundleName</key>
-	<string>minimal_mod</string>
+	<string>minimal_mod_lion</string>
 	<key>CFBundlePackageType</key>
 	<string>AdIM</string>
 	<key>DefaultFontFamily</key>
