@@ -5,7 +5,7 @@
 #Chat:not(.groupchat) .event .x-message,
 #Chat:not(.groupchat) .event a
 {
-	color: hsla(0, 0%, 60%, 1) !important;
+	color: hsla(0, 0%, 0%, 1) !important;
 }
 
 .outgoing:not(.history) .x-sender,
