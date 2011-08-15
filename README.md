@@ -6,6 +6,9 @@ Some of the fixes should probably be aplied the whole message style and are mark
 You don't need Lion in order to use this message style  
 
 
+![https://github.com/downloads/aristidesfl/minimal_mod_lion.AdiumMessageStyle/preview.png](https://github.com/downloads/aristidesfl/minimal_mod_lion.AdiumMessageStyle/preview.png)
+
+
 install
 -------
 Enter the following command on the terminal and restart Adium:
