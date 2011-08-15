@@ -1,9 +1,9 @@
 minimal_mod_lion
 ================
-This style is based on the minimal_mod style bundled with adium
-The changes are only visible using the Lion variant
-Some of the fixes should probably be aplied the whole message style and are marked with *
-You don't need Lion in order to use this message style
+This style is based on the minimal_mod style bundled with adium  
+The changes are only visible using the Lion variant  
+Some of the fixes should probably be aplied the whole message style and are marked with *  
+You don't need Lion in order to use this message style  
 
 
 install
@@ -33,4 +33,4 @@ changes
 - context: user icons gray *
 - context:hover: bring message color *
 
-* should probably be aplied the whole message style
+\* should probably be aplied the whole message style
