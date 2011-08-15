@@ -48,3 +48,8 @@
 	background-repeat: none;
 	background-color: hsla(220, 20%, 97%, 1);
 }
+
+img.x-buddyicon {
+	border-radius: 3px;
+	padding-bottom: 0;
+}
