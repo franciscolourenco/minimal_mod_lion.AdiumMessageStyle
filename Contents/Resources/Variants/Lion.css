@@ -34,3 +34,10 @@
 {
 	background: white;
 }
+
+.x-container:not(.consecutive),
+.message.action + .x-container.consecutive,
+.message.action
+{
+	border-top: 1px solid hsla(0, 0%, 88%, 1);
+}
