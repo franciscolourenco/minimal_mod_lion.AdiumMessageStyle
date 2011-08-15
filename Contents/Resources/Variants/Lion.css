@@ -64,9 +64,10 @@
 	background-color: hsla(220, 20%, 97%, 1);
 }
 
-img.x-buddyicon {
+img.x-buddyicon, .history:hover img.x-buddyicon {
 	border-radius: 3px;
 	padding-bottom: 0;
+	opacity: 1;
 }
 
 .message:not([src*="buddy_icon.png"]) .x-sender
@@ -93,12 +94,20 @@ a:hover
 	border-bottom: none;
 }
 
-.outgoing:not(.history) a
+.outgoing:not(.history) a, .history:hover a
 {
 	color: #576EFF !important;
 }
 
-.outgoing:not(.history) a:hover
+.outgoing:not(.history) a:hover, .history:hover a:hover
 {
 	color: #374EE5 !important;
+}
+
+.history img.x-buddyicon {
+	opacity: 0.4;
+}
+
+.history:hover .x-sender, .history:hover .x-message {
+	color:black !important;
 }
