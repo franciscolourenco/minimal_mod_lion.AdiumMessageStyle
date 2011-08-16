@@ -35,5 +35,6 @@ changes
 - links: light blue
 - context: user icons gray *
 - context:hover: bring message color *
+- reduced the space between consecutive messages *
 
 \* should probably be applied the whole message style
