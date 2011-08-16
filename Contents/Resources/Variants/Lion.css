@@ -24,6 +24,7 @@
 .message.action
 {
 	border-top: 1px solid hsla(0, 0%, 88%, 1);
+	margin-top: 2px;
 }
 
 .x-container.action {
@@ -110,4 +111,10 @@ a:hover
 
 .history:hover {
 	opacity:1;
+}
+.message {
+	line-height:1em !important;
+}
+.message:not(.consecutive) .x-message, .message.action + .message.consecutive .x-message {
+	padding-top:0.95em !important;
 }
