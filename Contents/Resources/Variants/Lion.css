@@ -26,6 +26,10 @@
 	border-top: 1px solid hsla(0, 0%, 88%, 1);
 }
 
+.x-container.action {
+	min-height: 3.1em !important;
+}
+
 .focus {
 	background-image: none;
 	background-repeat: no-repeat;
