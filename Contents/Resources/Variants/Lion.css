@@ -38,7 +38,7 @@
 }
 
 .mention {
-	background-image: url(/Users/user/Desktop/bluedot.png);
+	background-image: url(../images/bluedot.png);
 	background-repeat: no-repeat;
 	background-position: 6px center;
 	background-size: 9px 9px;
@@ -46,7 +46,7 @@
 }
 
 .focus.mention {
-	background-image: url(/Users/user/Desktop/bluedot.png);
+	background-image: url(../images/bluedot.png);
 	background-repeat: no-repeat;
 	background-position: 6px center;
 	background-size: 9px 9px;
@@ -99,7 +99,7 @@ a:hover
 }
 
 .history.mention {
-	background-image: url(/Users/user/Desktop/bluedot.png);
+	background-image: url(../images/bluedot.png);
 	background-repeat: no-repeat;
 	background-position: 6px center;
 	background-size: 9px 9px;
