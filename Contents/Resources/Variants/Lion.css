@@ -38,15 +38,15 @@
 }
 
 .mention {
-	background-image: url(../images/bluedot.png);
+	background-image: url(../images/bluedot.tiff);
 	background-repeat: no-repeat;
-	background-position: 6px center;
-	background-size: 9px 9px;
+	background-position: 3px center;
+	background-size: 14px 14px;
 
 }
 
 .focus.mention {
-	background-image: url(../images/bluedot.png);
+	background-image: url(../images/bluedot.tiff);
 	background-repeat: no-repeat;
 	background-position: 6px center;
 	background-size: 9px 9px;
@@ -99,7 +99,7 @@ a:hover
 }
 
 .history.mention {
-	background-image: url(../images/bluedot.png);
+	background-image: url(../images/bluedot.tiff);
 	background-repeat: no-repeat;
 	background-position: 6px center;
 	background-size: 9px 9px;
