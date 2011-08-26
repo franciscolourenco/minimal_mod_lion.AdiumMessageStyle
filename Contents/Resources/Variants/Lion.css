@@ -65,15 +65,17 @@ img.x-buddyicon, .history:hover img.x-buddyicon {
 	border-radius: 3px;
 	padding-bottom: 0;
 	opacity: 1;
+	width: 2.1em;
+	height: 2.1em;
 }
 
 .message:not([src*="buddy_icon.png"]) .x-sender
 {
-	margin-left: 2.7em;
+	margin-left: 2.3em;
 }
 
 .message:not([src*="buddy_icon.png"]) .x-message {
-	margin-left: 2.95em;
+	margin-left: 2.5em;
 }
 
 .x-container {
@@ -122,3 +124,7 @@ a:hover
 .message:not(.consecutive) .x-message, .message.action + .message.consecutive .x-message {
 	padding-top:0 !important;
 }
+.x-container.message.showIcons:not([src*="buddy_icon.png"]):not(.consecutive), .message.action + .x-container.message.consecutive.showIcons:not([src*="buddy_icon.png"]), .message.action.showIcons:not([src*="buddy_icon.png"]) {
+	min-height:0;
+}
+
