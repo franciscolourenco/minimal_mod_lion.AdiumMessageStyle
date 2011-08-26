@@ -31,10 +31,6 @@
 	padding:0;
 }
 
-.x-container.action {
-	min-height: 3.1em !important;
-}
-
 .focus {
 	background-image: none;
 	background-repeat: no-repeat;
@@ -129,4 +125,8 @@ a:hover
 
 img[src*="buddy_icon.png"] {
 	display: block;
+}
+
+.action img{
+	display: none;
 }
