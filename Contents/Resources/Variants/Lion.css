@@ -32,15 +32,6 @@
 }
 
 
-.mention {
-	background: none;
-}
-
-.mention .x-message {
-	background:url(../images/bluedot.png) no-repeat left center;
-	background-size: 0.9em;
-	padding: 0 0 0 1.1em !important; 
-}
 
 .focus .x-message {
 	background:url(../images/bluehalfdot.png) no-repeat left center;
@@ -57,6 +48,16 @@
 .focus.mention {
 	background: none;
 	/*background: none hsla(220, 20%, 97%, 1);*/
+}
+
+.mention {
+	background: none;
+}
+
+.mention .x-message {
+	background:url(../images/bluedot.png) no-repeat left center;
+	background-size: 0.9em;
+	padding: 0 0 0 1.1em !important; 
 }
 
 
