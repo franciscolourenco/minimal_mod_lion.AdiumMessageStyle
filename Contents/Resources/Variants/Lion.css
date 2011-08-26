@@ -31,26 +31,32 @@
 	padding:0;
 }
 
-.focus {
-	background-image: none;
-	background-repeat: no-repeat;
-	background-color: hsla(220, 20%, 97%, 1);
-}
 
 .mention {
-	background-image: url(../images/bluedot.tiff);
-	background-repeat: no-repeat;
-	background-position: 3px center;
-	background-size: 14px 14px;
-
+	background: none;
 }
 
-.focus.mention {
-	background-image: url(../images/bluedot.tiff);
+.mention .x-message {
+	background:url(../images/bluedot.png) no-repeat left center;
+	background-size: 0.9em;
+	padding: 0 0 0 1.1em !important; 
+}
+
+.focus .x-message {
+	background:url(../images/bluehalfdot.png) no-repeat left center;
+	background-size: 0.9em;
+	padding: 0 0 0 1.1em !important; 	
+}
+
+.focus {
+	background:none;
+	/*background-image: none;
 	background-repeat: no-repeat;
-	background-position: 6px center;
-	background-size: 9px 9px;
-	background-color: hsla(220, 20%, 97%, 1);
+	background-color: hsla(220, 20%, 97%, 1);*/
+}
+.focus.mention {
+	background: none;
+	/*background: none hsla(220, 20%, 97%, 1);*/
 }
 
 
@@ -58,8 +64,9 @@ img.x-buddyicon, .history:hover img.x-buddyicon {
 	border-radius: 3px;
 	padding-bottom: 0;
 	opacity: 1;
-	width: 2.1em;
-	height: 2.1em;
+	width: 2.3em;
+	height: 2.3em;
+	left: 5px;
 }
 
 .x-sender
@@ -79,7 +86,7 @@ img.x-buddyicon, .history:hover img.x-buddyicon {
 }
 
 .x-container {
-	padding: 0 20px;
+	padding: 0 8px;
 }
 
 a
@@ -108,10 +115,7 @@ a:hover
 }
 
 .history.mention {
-	background-image: url(../images/bluedot.tiff);
-	background-repeat: no-repeat;
-	background-position: 6px center;
-	background-size: 9px 9px;
+	background: none;
 }
 
 .history {
