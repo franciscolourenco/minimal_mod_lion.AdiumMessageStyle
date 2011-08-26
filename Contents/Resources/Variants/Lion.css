@@ -65,10 +65,17 @@ img.x-buddyicon, .history:hover img.x-buddyicon {
 .x-sender
 {
 	margin-left: 2.3em !important;
+	line-height:1.3em !important;
+
 }
 
 .x-message {
 	margin-left: 2.5em !important;
+	line-height:1.3em !important;
+
+}
+.x-time {
+	line-height: 1em;
 }
 
 .x-container {
@@ -109,10 +116,6 @@ a:hover
 
 .history {
 	opacity:0.5;
-}
-
-.x-message {
-	line-height:1.2em !important;
 }
 
 .message:not(.consecutive) .x-message, .message.action + .message.consecutive .x-message {
