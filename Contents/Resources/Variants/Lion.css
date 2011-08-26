@@ -1,3 +1,7 @@
+body {
+	padding: 0 0 4px 0;
+}
+
 .incoming:not(.history) .x-sender,
 .incoming:not(.history) a,
 #Chat:not(.groupchat) .status .x-message,
@@ -23,8 +27,11 @@
 .message.action + .x-container.consecutive,
 .message.action
 {
-	border-top: 1px solid hsla(0, 0%, 88%, 1);
-	margin-top: 2px;
+	border-top: 1px solid hsla(0, 0%, 88%, 1);	
+	margin: 4px 0 0 0;
+}
+.message:not(.action) + .message.consecutive:not(.action) .x-message {
+	padding:0;
 }
 
 .x-container.action {
@@ -70,7 +77,7 @@ img.x-buddyicon, .history:hover img.x-buddyicon {
 }
 
 .x-container {
-	padding-left: 20px;
+	padding: 0 20px;
 }
 
 a
@@ -113,8 +120,8 @@ a:hover
 	opacity:1;
 }
 .message {
-	line-height:1em !important;
+	line-height:1.2em !important;
 }
 .message:not(.consecutive) .x-message, .message.action + .message.consecutive .x-message {
-	padding-top:0.95em !important;
+	padding-top:0 !important;
 }
