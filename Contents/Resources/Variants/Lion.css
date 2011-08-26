@@ -1,7 +1,3 @@
-body {
-	padding: 0 0 4px 0;
-}
-
 .incoming:not(.history) .x-sender,
 .incoming:not(.history) a,
 #Chat:not(.groupchat) .status .x-message,
@@ -21,6 +17,7 @@ body {
 #Chat
 {
 	background: white;
+	padding: 0 0 4px 0;
 }
 
 .x-container:not(.consecutive),
