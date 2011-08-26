@@ -133,3 +133,7 @@ img[src*="buddy_icon.png"] {
 .action img{
 	display: none;
 }
+
+.x-container:not(.history) .x-time {
+	color: #0079E8;
+}
