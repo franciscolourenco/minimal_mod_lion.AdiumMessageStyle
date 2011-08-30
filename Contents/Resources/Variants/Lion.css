@@ -57,7 +57,7 @@
 .mention .x-message {
 	background:url(../images/bluedot.png) no-repeat left center;
 	background-size: 0.9em;
-	padding:  1.1em !important; 
+	padding: 0 0 0 1.1em !important; 
 }
 
 
