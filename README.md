@@ -14,7 +14,7 @@ install
 Enter the following command on the terminal and restart Adium:
 
 ```
-git clone git://github.com/aristidesfl/minimal_mod_lion.AdiumMessageStyle.git ~/Library/Application Support/Adium 2.0/Message Styles/minimal_mod_lion.AdiumMessageStyle
+git clone git://github.com/aristidesfl/minimal_mod_lion.AdiumMessageStyle.git ~/Library/Application\ Support/Adium\ 2.0/Message\ Styles/minimal_mod_lion.AdiumMessageStyle
 ```
 
 **or**
